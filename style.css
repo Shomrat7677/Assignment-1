@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background: url('./Assets/home-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    padding: 3.5vw 6vw;
+}
+/* Nav Bar CSS Start Here  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #4e47ff;
+}
+
+nav .nav-btn .sign-btn{
+    background-color: #4e47ff;
+    border: none;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    transition: all 0.3s ease;
+}
+
+nav .nav-btn .sign-btn:hover {
+    background-color: #000;
+    transform: scale(1.1);
+}
+/* Nav Bar CSS End Here  */
+
+
+/* Home Content CSS Start Here  */
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home .home-content {
+    padding-top: 14vw;
+}
+
+#home .home-content h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 5rem;
+    font-weight: 800;
+    color: #252432;
+    margin-bottom: 2.5rem;
+}
+
+#home .home-content .stay-btn{
+    background-color: #4e47ff;
+    border: none;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    transition: all 0.3s ease;
+}
+#home .home-content .stay-btn:hover {
+    background-color: #000;
+    transform: scale(1.1);
+}
+/* Home Content CSS End Here  */
