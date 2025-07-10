@@ -114,7 +114,8 @@ nav .nav-btn .sign-btn:hover {
 #page-2 .page-2-content p{
     font-size: 1.8vw;
     font-weight: 400;
-    font-family: "Inter", sans-serif;
+        font-family: "Raleway", sans-serif;
+
     color: #2524327e;
     margin-bottom: 2vw;
 }
@@ -264,3 +265,64 @@ nav .nav-btn .sign-btn:hover {
     color: #252432;
 }
 /* Page-4 CSS End Here  */
+
+/* Page-5 CSS Start Here  */
+#page-5{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    padding: 7vw 10vw;
+}
+
+#page-5 .page-5-main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 3vw 4vw;
+    border-radius: 20px;
+}
+
+#page-5 .page-5-main h1{
+    font-size: 2.5vw;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+    margin-bottom: 1vw;
+}
+
+#page-5 .page-5-main p{
+    font-size: 1.2vw;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #2524327e;
+    margin-bottom: 1vw;
+}
+
+#page-5 .page-5-main .get-started-btn{
+    background-color: #4e47ff;
+    border: none;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    transition: all 0.3s ease;
+    margin-bottom: .5vw;
+}
+
+#page-5 .page-5-main .get-started-btn:hover {
+    background-color: #000;
+    transform: scale(1.1);
+}
+
+#page-5 .page-5-main img{
+    width: 85%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: 2vw;
+}
+/* Page-5 CSS End Here  */
