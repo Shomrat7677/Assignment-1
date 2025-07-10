@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #ffffff;
+    background-color: #F5F8FF;
 }
 main {
     background: url('./Assets/home-bg.jpg') no-repeat center center/cover;
@@ -190,3 +190,77 @@ nav .nav-btn .sign-btn:hover {
     color: #2524327e;
 }
 /* Page-3 CSS End Here  */
+
+/* Page-4 CSS Start Here  */
+#page-4{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    padding: 7vw 10vw;
+}
+
+#page-4 h1{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 800;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+    margin-bottom: 5vw;
+}
+#page-4 .page-4-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-4 .page-4-main .card{
+    width: 32%;
+    height: 30vh;
+    background-color: #908dfc49;
+    padding: 1.5vw;
+    border-radius: 10px;
+    border: 1px solid #7c77ff79;
+    /* text-align: center; */
+}
+
+#page-4 .page-4-main .card h3{
+    font-size: 1.6vw;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Inter", sans-serif;
+    color: #252432;
+    margin: .6vw 0;
+}
+#page-4 .page-4-main .card .card-p{
+    font-size: 1.1vw;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #252432af;
+    margin-bottom: 1vw;
+}
+#page-4 .page-4-main .card .review{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 1vw;
+}
+#page-4 .page-4-main .card .review img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+}
+
+#page-4 .page-4-main .card .review p{
+    font-size: 1vw;
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    color: #252432;
+    margin-bottom: .3vw;
+}
+#page-4 .page-4-main .card .review span{
+    font-size: .7vw;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #252432;
+}
+/* Page-4 CSS End Here  */
