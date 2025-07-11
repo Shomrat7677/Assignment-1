@@ -258,17 +258,17 @@ nav .nav-btn .sign-btn:hover {
 }
 
 #page-4 .page-4-main .card .review p{
-    font-size: 1vw;
-    font-weight: 300;
+    font-size: 1.1vw;
+    font-weight: 500;
     font-family: "Inter", sans-serif;
-    color: #252432;
+    color: #252432e1;
     margin-bottom: .3vw;
 }
 #page-4 .page-4-main .card .review span{
-    font-size: .7vw;
+    font-size: .9vw;
     font-weight: 400;
     font-family: "Inter", sans-serif;
-    color: #252432;
+    color: #252432a4;
 }
 /* Page-4 CSS End Here  */
 
